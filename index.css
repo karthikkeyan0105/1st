@@ -1,0 +1,22 @@
+*{background-color: rgb(149, 174, 228);}
+.form {
+    background-color: rgb(135, 100, 218);
+    margin: 50px;
+    padding: 50px;
+}
+
+nav {
+    position: static;
+    padding: 30px;
+    display: table;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    top: 0;
+}
+
+@media only screen and (max-width:400px) {
+    * {
+        text-align: center;
+    }
+}
